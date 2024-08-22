@@ -1,6 +1,6 @@
-const names = require('./names')
+const names = require('./3.5.2-fs')
 const sayHiDiff = require('./utils')
-require('./mind-grenade')
+require('./3.5.1-fs')
 console.log(names)
 //the below will use variables from names.js
 sayHiDiff(names.my_name)
