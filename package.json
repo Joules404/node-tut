@@ -1,0 +1,18 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "12-http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "lodash": "^4.17.21"
+  }
+}

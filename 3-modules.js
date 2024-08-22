@@ -1,0 +1,10 @@
+const names = require('./names')
+const sayHiDiff = require('./utils')
+require('./mind-grenade')
+console.log(names)
+//the below will use variables from names.js
+sayHiDiff(names.my_name)
+sayHiDiff(names.fish)
+sayHiDiff(names.bowl)
+sayHiDiff('Susan')
+sayHiDiff("random name")
