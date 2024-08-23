@@ -1,5 +1,5 @@
 const names = require('./3.5.2-fs')
-const sayHiDiff = require('./utils')
+const sayHiDiff = require('./3.5.3-fs')
 require('./3.5.1-fs')
 console.log(names)
 //the below will use variables from names.js
