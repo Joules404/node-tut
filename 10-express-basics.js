@@ -21,6 +21,7 @@ app.get('/about',(req,res)=>{
     res.send("hello world from the express function get/about")
 })
 
+
 app.all('*',(req,res)=>{
     console.log("using all()")
     res.status(400).send("hit a 404 error in " + req.url + " page")    
